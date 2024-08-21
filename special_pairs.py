@@ -18,16 +18,7 @@ def special_pairs(n: int) -> [[int]]: # type: ignore
         diff = n - num
         if diff in res:
             pair.append((diff, num))
-
-    pair.reverse()
+            
     return pair
 
 print(special_pairs(18))
-
-
-
-    if diff in res:
-        pair.append((diff, num))
-
-# pair.reverse()
-print(pair)
